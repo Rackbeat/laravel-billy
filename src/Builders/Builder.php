@@ -21,6 +21,7 @@ class Builder
 	protected $model;
 	protected $request;
 
+
 	public function __construct( Request $request ) {
 		$this->request = $request;
 	}
